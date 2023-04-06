@@ -1,0 +1,41 @@
+body {background-color: antiquewhite;}
+table {
+    margin-top: 50px;
+}
+
+
+div {
+    text-align:center;
+}
+    
+
+img{margin-top: 10px;
+    cursor: pointer;
+}
+
+input{
+    height: 30px;
+    width: 1000;
+    border: 3px solid rgb(110, 85, 24);
+    border-radius: 8px;
+}
+
+.section {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+  }
+  
+  .button {
+    background-color: var(--primary-color);
+    color: #fff;
+  }
+  
+  .section {
+    border-bottom: 1px solid var(--secondary-color);
+  }
+
